@@ -1,0 +1,19 @@
+.section-works {}
+
+.section-works__title {
+    @extend %mp-none, %section-title;
+}
+
+.section-works__list {
+@extend %list;
+}
+
+.section-works__item {}
+
+.section-works__thumb {}
+
+.section-works__img {
+    @extend %img
+}
+
+.section-works__text {}

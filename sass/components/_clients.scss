@@ -4,7 +4,7 @@
 }
 
 .section-clients__title {
-  @extend %section-title;
+  @extend %section-title, %mp-none;
 }
 
 .section-clients__list {

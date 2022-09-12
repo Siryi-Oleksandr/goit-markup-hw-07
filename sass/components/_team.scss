@@ -18,7 +18,7 @@
 
 .section-team__item {
 $item: 4;
-    flex-basis: calc((100% - (#{$project-grid-gap} * (#{$item} - 1))) / #{$item});
+  flex-basis: calc((100% - (#{$project-grid-gap} * (#{$item} - 1))) / #{$item});
 
   box-shadow: $team-card-shadow;
   border-radius: 0px 0px 4px 4px;

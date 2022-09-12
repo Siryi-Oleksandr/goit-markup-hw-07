@@ -4,7 +4,7 @@
 }
 
 .social__link {
-  @extend %flex;
+  @extend %flex, %link;
 
   width: 44px;
   height: 44px;
@@ -18,13 +18,14 @@
   &:hover,
   &:focus {
     background-color: $accent-bg-color;
-        fill: $white-txt-color;
-        transform: rotate(360deg);
-        cursor: pointer;
+    fill: $white-txt-color;
+    transform: rotate(360deg);
+    cursor: pointer;
   }
 }
 
 .social-group__title {
+  @extend %mp-none;
   margin-bottom: 20px;
 
   font-weight: 700;

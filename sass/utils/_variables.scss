@@ -5,6 +5,7 @@ $accent-color: #2196f3;
 $white-txt-color: #ffffff;
 $social-primary-color: #afb1b8;
 $footer-sub-color: rgba(255, 255, 255, 0.6);
+$modal-border-color: rgba(33, 33, 33, 0.2);
 
  /* Фонові кольори */
 $secondary-bg-color: #f5f4fa;
@@ -16,7 +17,7 @@ $social-bg-color: rgba(255, 255, 255, 0.1);
 $project-grid-gap: 30px;
 $section-padding-gap: 94px;
  /* Тіні карток та кнопок */
- $shadow-portfolio: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ $shadow-btn-filters: 0px 4px 4px rgba(0, 0, 0, 0.25);
  $team-card-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
  0px 1px 1px rgba(0, 0, 0, 0.14),
  0px 2px 1px rgba(0, 0, 0, 0.2);

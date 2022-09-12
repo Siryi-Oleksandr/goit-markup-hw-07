@@ -1,32 +1,32 @@
 .contacts-list {
-    @extend %list;
-    @extend %mp-none;
+  @extend %list;
+  @extend %mp-none;
 
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-    gap: 30px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 .contacts__link {
-    @extend %link;
+  @extend %link;
 
-    display: flex;
-    align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
-    color: $primary-txt-color;
+  color: $primary-txt-color;
 
-    transition: color $animation, fill $animation;
+  transition: color $animation, fill $animation;
 
-    &:hover,
-    &:focus {
-        color: $accent-color;
-        fill: $accent-color;
-    }
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    fill: $accent-color;
+  }
 }
 
 .contacts__icon {
-    margin-right: 10px;
+  margin-right: 10px;
 }
